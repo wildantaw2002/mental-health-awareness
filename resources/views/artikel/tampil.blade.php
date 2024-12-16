@@ -22,7 +22,7 @@
             <tr class="bg-gray-100 text-gray-700">
                 <td class="border border-gray-200 px-4 py-2 text-left">{{ $no + 1 }}</td>
                 <td class="border border-gray-200 px-4 py-2 text-left">
-                    <img src="{{ asset('storage/foto/' . $data->foto) }}" alt="Foto Artikel" width="100">
+                    <img src="{{ asset('storage/public/foto/' . $data->foto) }}" alt="Foto Artikel" width="100">
                 </td>
 
                 <td class="border border-gray-200 px-4 py-2 text-left">{{ $data->judul }}</td>
