@@ -6,7 +6,7 @@
     <title>Document</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @vite('resources/css/app.css')
-
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body className="bg-gray-100">
     <h1 className="text-2xl font-bold text-center mt-4">CRUD ARTIKEL</h1>
