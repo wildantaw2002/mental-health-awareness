@@ -53,4 +53,9 @@ class artikelController extends Controller
 
         return redirect()->route('artikel.tampil');  // Arahkan kembali ke halaman daftar artikel
     }
+
+    public function edit($id){
+        $artikel=Artikel::find($id);
+        return view('artikel.edit', compact('artikel'));
+    }
 }

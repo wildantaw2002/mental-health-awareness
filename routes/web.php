@@ -18,7 +18,7 @@ Route::get('/artikel/tambah',  [artikelController::class,'tambah'])->name('artik
 
 Route::post('/artikel/submit', [artikelController::class, 'submit'])->name('artikel.submit');
 
-Route::get('/artikel/edit', [artikelController::class, 'edit'])->name('artikel.edit');
+Route::get('/artikel/edit/{id}', [artikelController::class, 'edit'])->name('artikel.edit');
 
 
 

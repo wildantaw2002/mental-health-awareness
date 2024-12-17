@@ -34,7 +34,7 @@
                     {{ Str::limit($data->isi, 50) }}
                 </td>
                 <td>
-                    <a href="{{route('artikel.edit')}}">Edit</a>
+                    <a href="{{route('artikel.edit', $data->no)}}">Edit</a>
                 </td>
             </tr>
             @endforeach
